@@ -1,0 +1,8 @@
+#Modify the example above to give a program where we count up starting from 1 and going up until 10, 
+#and then print Blastoff!
+
+up = 1
+while up <= 10:
+ print (up)
+ up = up + 1
+print ("Blastoff!")

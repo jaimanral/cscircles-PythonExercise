@@ -1,0 +1,15 @@
+#Your program should take a person's name as input, for example "pearl," and print out the song like
+#pearl, pearl, bo-bearl
+#banana-fana fo-fearl
+#fee-fi-mo-mearl
+#pearl!
+
+myName = input ()
+firstWord = myName [1:len (myName)+1]
+firstWord2 = "b"
+firstWord3 = "f"
+firstWord4 = "m"
+print (myName+','+' '+ myName+','+' ' + 'bo-'+firstWord2+firstWord)
+print ('banana-fana'+ ' '+'fo-'+firstWord3+firstWord)
+print ('fee-fi-mo-' + firstWord4+firstWord)
+print (myName +'!')

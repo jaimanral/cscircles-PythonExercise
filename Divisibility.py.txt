@@ -1,0 +1,13 @@
+#Write a program that reads two positive integers a and b on separate lines. If a is divisible by b, print the message "divisible". Otherwise, print the message "not divisible". For example, when the input is
+#14
+#3
+#the program should print "not divisible".
+
+a = int (input ())
+b = int (input ())
+c = a % b
+if c == 0:
+ print ("divisible")
+if c != 0:
+ print ("not divisible")
+

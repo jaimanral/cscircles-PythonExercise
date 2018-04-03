@@ -1,0 +1,6 @@
+#As a "skill-testing question", you are given three integers and asked to add the first two numbers, then multiply the result by the third number. Write a program to read the three numbers and print out the correct answer.
+
+a = int (input())
+b = int (input())
+c = int (input())
+print ((a+b) * c)

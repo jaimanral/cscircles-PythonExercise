@@ -1,0 +1,8 @@
+#Write a program that takes a character as input (a string of length 1), which you should assume is an upper-case character; the output should be the next character in the alphabet. If the input is 'Z', your output should be 'A'. 
+
+myWord = input ()
+if myWord == "Z":
+ print ("A")
+if myWord != "Z":
+ nextWord = ord (myWord) + 1
+ print (chr (nextWord))
