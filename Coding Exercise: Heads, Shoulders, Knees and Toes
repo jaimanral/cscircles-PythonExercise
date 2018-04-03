@@ -1,4 +1,0 @@
-heads = people
-shoulders = heads * 2
-knees = shoulders 
-toes = heads * 10
